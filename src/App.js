@@ -2,7 +2,7 @@ import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName"
 import Person from "./components/Person"
 import Phrase from "./components/Phrase";
-
+import ListExample from "./components/ListExample";
 
 function App() {
 
@@ -31,6 +31,7 @@ function App() {
       />
 
     <Phrase/>
+    <ListExample/>
     
     </div>
   );
