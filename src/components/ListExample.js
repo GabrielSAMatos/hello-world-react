@@ -5,9 +5,8 @@ function ListExample(){
         <>
             <h1>H1 of list</h1>
             <ul>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <ItemFromList item="Item 3 from ItemFromList"/>
+                <ItemFromList name="Gabriel" yearOfBirth={"1999"}/>
+                <ItemFromList  yearOfBirth={2002}/>
             </ul>
         </>
     )
