@@ -1,9 +1,11 @@
+import styles from "./Phrase.module.css"
+
 function Phrase(){
 
     return(
         <div>
-            <p>
-                Screwed ass
+            <p className={styles.paragraph}>
+                phrase with different style lalala
             </p>
         </div>
     )

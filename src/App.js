@@ -1,6 +1,8 @@
 import HelloWorld from "./components/HelloWorld";
 import SayMyName from "./components/SayMyName"
 import Person from "./components/Person"
+import Phrase from "./components/Phrase";
+
 
 function App() {
 
@@ -16,14 +18,20 @@ function App() {
     <div className="App">
       <h1>{hello()}</h1>
       <HelloWorld/>
+
       <SayMyName name="Gabriel"/>
       <SayMyName name="Nat"/>
       <SayMyName name={name1}/>
+
       <Person 
       name="Gabriel" 
       age="26" 
       profession="instructor" 
-      photo="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1134575.jpg&f=1&nofb=1&ipt=85a2bd9cc6117f46b10c8ee9cfe22d76fca7ca243faaf8b573605a45b94eab2d"/>
+      photo="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F1134575.jpg&f=1&nofb=1&ipt=85a2bd9cc6117f46b10c8ee9cfe22d76fca7ca243faaf8b573605a45b94eab2d"
+      />
+
+    <Phrase/>
+    
     </div>
   );
 }
